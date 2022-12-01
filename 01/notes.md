@@ -38,3 +38,33 @@ shit. sort can be used without an argument but that's not what we want here
 ok MDN saves the day again. `array.sort((a,b) => b - a)` FTMFW
 
 YAAAYAYAYAYAYAYYAYA
+
+
+## refactoring
+
+I don't have to do this but I saw that this was a good opportunity to practice function composition so
+deal with it
+
+wow!! can't believe that kind of worked.
+ok so I don't want to mix async and sync functions in pipe.
+let's make the pipe input whatever the filestream returns
+
+whhaaaat it can't find input.txt now? -_-
+
+ok doesn't node have __dirname or something
+yes
+
+WHAAAAT
+`__dirname is not defined in ES module scope`
+
+FUUUUUUUUU
+
+ok google what's up
+
+[ayfkm](https://bobbyhadz.com/blog/javascript-dirname-is-not-defined-in-es-module-scope)
+
+w/e ok.
+
+NICEEEEE
+
+lol not really cleaner. but at least it's (kinda) functional amirite?
